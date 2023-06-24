@@ -37,7 +37,7 @@ for file in glob.glob("common_crawl/*/*/*.gz"):
 #
 perfile = i / len(jobs)
 
-## Output Commoncrawl data as label "__label__wiki"
+## Output Commoncrawl data as label "__label__cc"
 #
 n = 0
 for job in jobs:
